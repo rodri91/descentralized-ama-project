@@ -5,23 +5,23 @@ import './App.css';
 export default function App() {
 
   const wave = () => {
-    
+
   }
-  
+
   return (
     <div className="mainContainer">
 
       <div className="dataContainer">
         <div className="header">
-        👋 Hey there!
+          👋 Hi everyone!
         </div>
 
         <div className="bio">
-        I am farza and I worked on self-driving cars so that's pretty cool right? Connect your Ethereum wallet and wave at me!
+          I'm Rodrigo!<br /> Connect your Ethereum wallet and Ask Me Anything!
         </div>
 
         <button className="waveButton" onClick={wave}>
-          Wave at Me
+          AMA now
         </button>
       </div>
     </div>
